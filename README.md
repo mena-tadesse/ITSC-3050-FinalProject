@@ -66,6 +66,8 @@ An app where users can search/browse books (filtering system included), look at 
 - Favorites Page
     - User can view favorited books
     - User can remove book from favorites
+- Create Review
+   - User can create a review for a book
 
 ### 3. Navigation
 
@@ -81,7 +83,32 @@ An app where users can search/browse books (filtering system included), look at 
     -> Book Details
 - Book Details
     -> Home
+    -> Create Review
 - Favorites Page
-    -> Book Details
 - Reading List
     -> Book Details
+- Create Review
+    -> Book Details
+
+## Wireframes
+
+[Add picture of your hand sketched wireframes in this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+
+[This section will be completed in Unit 9]
+
+### Models
+
+[Add table of models]
+
+### Networking
+
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
