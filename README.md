@@ -92,8 +92,7 @@ An app where users can search/browse books (filtering system included), look at 
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="./iOS_final_project_wireframe" width=600>
+<img src="./iOS_final_project_wireframe.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
