@@ -103,4 +103,8 @@ An app where users can search/browse books, look at the book details (separate p
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 ### Video
-<div style="position: relative; padding-bottom: 218.21862348178138%; height: 0;"><iframe src="https://www.loom.com/embed/947b26ce06034d00994b29eef8454a97?sid=e927e925-e441-4630-9e0e-5330f61f9829" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div>
+    <a href="https://www.loom.com/share/947b26ce06034d00994b29eef8454a97">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/947b26ce06034d00994b29eef8454a97-96d8be72a87a9401-full-play.gif">
+    </a>
+  </div>
