@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D7660AE52DAB48CE00FFE5E2 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = D7660AE42DAB48CE00FFE5E2 /* Nuke */; };
+		D7660AE72DAB48CE00FFE5E2 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = D7660AE62DAB48CE00FFE5E2 /* NukeExtensions */; };
+		D7660AE92DAB48CE00FFE5E2 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = D7660AE82DAB48CE00FFE5E2 /* NukeUI */; };
+		D7660AEB2DAB48CE00FFE5E2 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = D7660AEA2DAB48CE00FFE5E2 /* NukeVideo */; };
+		D7660AED2DAB48E700FFE5E2 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = D7660AEC2DAB48E700FFE5E2 /* Nuke */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D76609FC2D9CE74D00FFE5E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7660AE92DAB48CE00FFE5E2 /* NukeUI in Frameworks */,
+				D7660AE52DAB48CE00FFE5E2 /* Nuke in Frameworks */,
+				D7660AE72DAB48CE00FFE5E2 /* NukeExtensions in Frameworks */,
+				D7660AEB2DAB48CE00FFE5E2 /* NukeVideo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7660AED2DAB48E700FFE5E2 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +138,10 @@
 			);
 			name = capstone;
 			packageProductDependencies = (
+				D7660AE42DAB48CE00FFE5E2 /* Nuke */,
+				D7660AE62DAB48CE00FFE5E2 /* NukeExtensions */,
+				D7660AE82DAB48CE00FFE5E2 /* NukeUI */,
+				D7660AEA2DAB48CE00FFE5E2 /* NukeVideo */,
 			);
 			productName = capstone;
 			productReference = D76609E52D9CE74A00FFE5E2 /* capstone.app */;
@@ -171,6 +188,7 @@
 			);
 			name = capstoneUITests;
 			packageProductDependencies = (
+				D7660AEC2DAB48E700FFE5E2 /* Nuke */,
 			);
 			productName = capstoneUITests;
 			productReference = D7660A052D9CE74D00FFE5E2 /* capstoneUITests.xctest */;
@@ -208,6 +226,9 @@
 			);
 			mainGroup = D76609DC2D9CE74A00FFE5E2;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D76609E62D9CE74A00FFE5E2 /* Products */;
 			projectDirPath = "";
@@ -563,6 +584,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7660AE42DAB48CE00FFE5E2 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		D7660AE62DAB48CE00FFE5E2 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		D7660AE82DAB48CE00FFE5E2 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		D7660AEA2DAB48CE00FFE5E2 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		D7660AEC2DAB48E700FFE5E2 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7660AC92DAB437200FFE5E2 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D76609DD2D9CE74A00FFE5E2 /* Project object */;
 }
