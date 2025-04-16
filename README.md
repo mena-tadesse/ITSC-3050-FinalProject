@@ -9,6 +9,7 @@ Original App Design Project - README Template
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
+5. [Video](#Video)
 
 ## Overview
 
@@ -100,3 +101,6 @@ An app where users can search/browse books, look at the book details (separate p
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+### Video
+<div style="position: relative; padding-bottom: 218.21862348178138%; height: 0;"><iframe src="https://www.loom.com/embed/947b26ce06034d00994b29eef8454a97?sid=e927e925-e441-4630-9e0e-5330f61f9829" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
