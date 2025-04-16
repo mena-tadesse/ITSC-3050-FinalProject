@@ -14,16 +14,16 @@ Original App Design Project - README Template
 
 ### Description
 
-An app where users can search/browse books (filtering system included), look at the book details (separate page), and favorite books (will have separate page of favorited books). Users can also leave reviews for the novels they've read.
+An app where users can search/browse books, look at the book details (separate page), and favorite books (will have separate page of favorited books). 
 
 ### App Evaluation
 
 - **Category:** Entertainment
 - **Mobile:** It is great for quick searches and managing reading lists on-the-go.
-- **Story:** It will allow for users to share their honest opinions on books they've read, and also keep note of books they would like to read.
+- **Story:** It will allow for users to keep note of books they would like to read.
 - **Market:** This will be useful to students, book lovers, and the general public. 
-- **Habit:** Could have a medium habit potential if people use it each time they want book recommendations. Habitual use can be encouraged with features like a checklist or reading goals.
-- **Scope:** Could have a medium scope, book data will be pulled from public APIs, favorites, and review systems.
+- **Habit:** Could have a medium habit potential if people use it each time they want book recommendations.
+- **Scope:** Could have a medium scope, book data will be pulled from public API
 
 ## Product Spec
 
@@ -36,9 +36,6 @@ An app where users can search/browse books (filtering system included), look at 
 * User can favorite a book
 * User can view list of favorited books
 * User can select a book to view its details
-* User can write a review for a book
-* User can add books to reading-list
-* User can delete & check off books from reading-list
 
 **Optional Nice-to-have Stories**
 
@@ -47,6 +44,10 @@ An app where users can search/browse books (filtering system included), look at 
 * User can follow authors
 * User will have their own profile
 * Users can message each other
+* User can write a review for a book
+* User can add books to reading-list
+* User can delete & check off books from reading-list
+
 
 ### 2. Screen Archetypes
 
@@ -59,15 +60,9 @@ An app where users can search/browse books (filtering system included), look at 
     - User can write a review
     - User can favorite the book
     - User can add the book to their reading list
-- Reading List
-    - User can view their reading list
-    - User can check off the book as completed
-    - User can delete book from list
 - Favorites Page
     - User can view favorited books
     - User can remove book from favorites
-- Create Review
-   - User can create a review for a book
 
 ### 3. Navigation
 
@@ -75,7 +70,6 @@ An app where users can search/browse books (filtering system included), look at 
 
 * Home Page
 * Reading List
-* Favorites Page
 
 **Flow Navigation** (Screen to Screen)
 
@@ -83,12 +77,7 @@ An app where users can search/browse books (filtering system included), look at 
     -> Book Details
 - Book Details
     -> Home
-    -> Create Review
 - Favorites Page
-- Reading List
-    -> Book Details
-- Create Review
-    -> Book Details
 
 ## Wireframes
 
